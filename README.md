@@ -11,6 +11,8 @@ This is for a quick demo of github!
 
 *   [mastering markdown](https://guides.github.com/features/mastering-markdown/)
 
+*   [github app](https://mac.github.com/)
+
 *   [getting started with github pages](https://guides.github.com/features/pages/)
 
 ### lol advanced
