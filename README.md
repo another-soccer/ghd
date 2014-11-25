@@ -27,6 +27,12 @@ where am I? (print working directory)
 
 ## Basic Git Commands ([git - the simple guide](http://rogerdudler.github.io/git-guide/)) explains this better than I can
 
+### `git clone [url]`
+
+download the whole repository at the given url
+
+* `git clone https://github.com/amonks/ghd.git`
+
 ### *`git add`*
 
 start tracking a file
