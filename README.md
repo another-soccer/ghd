@@ -5,47 +5,61 @@ This is for a quick demo of github!
 
 ## Basic Terminal Commands
 
-### *`cd`*: change directory (switch folders)
+### *`cd`*
+
+change directory (switch folders)
 
 * `cd` (drag folder from finder)
 
 * `cd ~/Desktop`
 
-### *`ls`*: list contents of current directory
+### *`ls`*
+
+list contents of current directory
 
 * `ls -a` include hidden files
 
 * `ls -al` include hidden files in nice detailed list
 
-### *`pwd`*: where am I? (print working directory)
+### *`pwd`*
 
-* `pwd`
+where am I? (print working directory)
 
 ## Basic Git Commands
 
-### *`git add`*: start tracking a file
+### *`git add`*
+
+start tracking a file
 
 * `git add .`: add everything the current directory (`.`)
 
 * `git add index.html`: add the index.html file only (equivalent to `git add ./index.html`)
 
-### *`git commit -m "message"`* commit your changes into git, including a short message making note of what you changed
+### *`git commit -m "message"`*
+
+commit your changes into git, including a short message making note of what you changed
 
 * `git commit -am "I changed many files"` automatically add anything that's changed (note the `-a`)
 
 * `git commit -m "Here's a short description of stuff I changed"` commit any changes to files you've already `git add`ed
 
-### *`git remote add [remote] [url]`* add a remote repository
+### *`git remote add [remote] [url]`*
+
+add a remote repository
 
 * `git remote add origin https://github.com/amonks/ghd.git` create a remote called `origin` from amonks's `ghd` project on github. People usually call their main remote `origin` for some reason.
 
-### *`git push [remote] [branch]`* publish your changes to a remote repository
+### *`git push [remote] [branch]`*
+
+publish your changes to a remote repository
 
 * `git push origin master`. The default branch is called `master`.
 
 * `git push origin gh-pages` push to a branch called `gh-pages`
 
-### *`git pull [remote] [branch]` pull changes from a remote repository
+### *`git pull [remote] [branch]`
+
+pull changes from a remote repository
 
 * `git pull origin master` get all the changes from the `master` branch at the `origin` remote
 
