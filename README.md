@@ -25,7 +25,7 @@ list contents of current directory
 
 where am I? (print working directory)
 
-## Basic Git Commands
+## Basic Git Commands ([git - the simple guide](http://rogerdudler.github.io/git-guide/)) explains this better than I can
 
 ### *`git add`*
 
