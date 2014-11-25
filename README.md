@@ -21,6 +21,8 @@ list contents of current directory
 
 * `ls -al` include hidden files in nice detailed list
 
+* `ls ~/Desktop` list the stuff on your desktop
+
 ### `pwd`
 
 where am I? (print working directory)
@@ -76,6 +78,8 @@ pull changes from a remote repository
 ### basic
 
 *   [git - the simple guide](http://rogerdudler.github.io/git-guide/)
+
+*   [getting to know the command line](http://www.davidbaumgold.com/tutorials/command-line/)
 
 *   [mastering markdown](https://guides.github.com/features/mastering-markdown/)
 
