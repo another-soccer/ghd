@@ -5,7 +5,7 @@ This is for a quick demo of github!
 
 ## Basic Terminal Commands
 
-### *`cd`*
+### `cd`
 
 change directory (switch folders)
 
@@ -13,7 +13,7 @@ change directory (switch folders)
 
 * `cd ~/Desktop`
 
-### *`ls`*
+### `ls`
 
 list contents of current directory
 
@@ -21,7 +21,7 @@ list contents of current directory
 
 * `ls -al` include hidden files in nice detailed list
 
-### *`pwd`*
+### `pwd`
 
 where am I? (print working directory)
 
@@ -33,7 +33,7 @@ download the whole repository at the given url
 
 * `git clone https://github.com/amonks/ghd.git`
 
-### *`git add`*
+### `git add`
 
 start tracking a file
 
@@ -41,7 +41,7 @@ start tracking a file
 
 * `git add index.html`: add the index.html file only (equivalent to `git add ./index.html`)
 
-### *`git commit -m "message"`*
+### `git commit -m "message"`
 
 commit your changes into git, including a short message making note of what you changed
 
@@ -49,13 +49,13 @@ commit your changes into git, including a short message making note of what you 
 
 * `git commit -m "Here's a short description of stuff I changed"` commit any changes to files you've already `git add`ed
 
-### *`git remote add [remote] [url]`*
+### `git remote add [remote] [url]`
 
 add a remote repository
 
 * `git remote add origin https://github.com/amonks/ghd.git` create a remote called `origin` from amonks's `ghd` project on github. People usually call their main remote `origin` for some reason.
 
-### *`git push [remote] [branch]`*
+### `git push [remote] [branch]`
 
 publish your changes to a remote repository
 
@@ -63,7 +63,7 @@ publish your changes to a remote repository
 
 * `git push origin gh-pages` push to a branch called `gh-pages`
 
-### *`git pull [remote] [branch]`
+### `git pull [remote] [branch]`
 
 pull changes from a remote repository
 
